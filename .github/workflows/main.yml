@@ -36,8 +36,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            beccon/rotten-potatos:latest
-            beccon/rotten-potatos:${{ github.run_number }}
+            beccon/rotten-potatoes:latest
+            beccon/rotten-potatoes:${{ github.run_number }}
             
   CD:
     # The type of runner that the job will run on
